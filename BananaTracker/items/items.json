@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "Donkey Kong",
     "type": "toggle",
@@ -310,15 +310,16 @@
     "codes": "goldenbananas,gb",
     "swap_actions": false,
 	  "initial_quantity": 0,
-    "max_quantity": 50
+    "max_quantity": 201
   },
 
 
   {
     "name": "Japes Label",
-    "type": "static",
-    "img": "images/japes.png",
-    "codes": "japeslabel"
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/japes_label.png",
+    "codes": "japeslabel,l1"
   },
   {
     "name": "Japes Key",
@@ -335,12 +336,12 @@
     "codes": "japescrown,c1"
   },
 
-
   {
     "name": "Aztec Label",
-    "type": "static",
-    "img": "images/aztec.png",
-    "codes": "azteclabel"
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/aztec_label.png",
+    "codes": "azteclabel,l2"
   },
   {
     "name": "Aztec Key",
@@ -360,9 +361,10 @@
 
   {
     "name": "Factory Label",
-    "type": "static",
-    "img": "images/factory.png",
-    "codes": "factorylabel"
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/factory_label.png",
+    "codes": "factorylabel,l3"
   },
   {
     "name": "Factory Key",
@@ -382,9 +384,10 @@
 
   {
     "name": "Galleon Label",
-    "type": "static",
-    "img": "images/galleon.png",
-    "codes": "galleonlabel"
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/galleon_label.png",
+    "codes": "galleonlabel,l4"
   },
   {
     "name": "Galleon Key",
@@ -404,9 +407,10 @@
 
   {
     "name": "Forest Label",
-    "type": "static",
-    "img": "images/forest.png",
-    "codes": "forestlabel"
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/forest_label.png",
+    "codes": "forestlabel,l5"
   },
   {
     "name": "Forest Key",
@@ -426,9 +430,10 @@
 
   {
     "name": "Caves Label",
-    "type": "static",
-    "img": "images/caves.png",
-    "codes": "caveslabel"
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/caves_label.png",
+    "codes": "caveslabel,l6"
   },
   {
     "name": "Caves Key",
@@ -448,9 +453,10 @@
 
   {
     "name": "Castle Label",
-    "type": "static",
-    "img": "images/castle.png",
-    "codes": "castlelabel"
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/castle_label.png",
+    "codes": "castlelabel,l7"
   },
   {
     "name": "Castle Key",
@@ -470,9 +476,10 @@
 
   {
     "name": "Helm Label",
-    "type": "static",
-    "img": "images/helm.png",
-    "codes": "helmlabel"
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/helm_label.png",
+    "codes": "helmlabel,l8"
   },
   {
     "name": "Helm Key",
@@ -493,7 +500,7 @@
   {
     "name": "Isles Label",
     "type": "static",
-    "img": "images/isles.png",
+    "img": "images/isles_label.png",
     "codes": "isleslabel"
   },
   {
@@ -509,5 +516,28 @@
     "loop": "true",
     "img": "images/crown.png",
     "codes": "islescrown2,c10"
+  },
+
+
+  {
+    "name": "Japes Trigger Banana",
+    "type": "toggle",
+    "img": "images/dk_gun.png",
+    "codes": "japestriggerbanana",
+    "capturable": true
+  },
+  {
+    "name": "Japes Kong",
+    "type": "toggle",
+    "img": "images/dk.png",
+    "codes": "japeskong",
+    "capturable": true
+  },
+  {
+    "name": "Generic Blueprint",
+    "type": "toggle",
+    "img": "images/diddy_bp.png",
+    "codes": "blueprint",
+    "capturable": true
   }
 ]

@@ -1,0 +1,348 @@
+[
+  {
+    "name": "Jungle Japes",
+    "color": "#18a50e",
+    "access_rules": [
+      "l1"
+    ],
+    "children": [
+      {
+        "name": "First Cave Alcove",
+        "access_rules": [
+          "diddykong,peanutpopguns"
+        ],
+        "sections": [
+          {
+            "name": "Hit the switches",
+            "access_rules": [],
+            "chest_unopened_img": "images/GB.gif",
+            "chest_opened_img": "images/GB_grey.gif",
+            "capture_item": true,
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "japes",
+            "x": 543,
+            "y": 734
+          }
+        ]
+      },
+      {
+        "name": "In Front of Diddy's Cage",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Golden Banana, Activate switches",
+            "access_rules": [
+              "$has_kong"
+            ],
+            "chest_unopened_img": "images/GB.gif",
+            "chest_opened_img": "images/GB_grey.gif",
+            "hosted_item": "japestriggerbanana",
+            "capture_item": true,
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "japes",
+            "x": 680,
+            "y": 365
+          }
+        ]
+      },
+      {
+        "name": "Diddy's Cage",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Shoot the gate switches, free the kong",
+            "access_rules": [
+              "$can_shoot,japestriggerbanana"
+            ],
+            "chest_unopened_img": "images/GB.gif",
+            "chest_opened_img": "images/GB_grey.gif",
+            "capture_item": true,
+            "hosted_item": "japeskong",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "japes",
+            "x": 680,
+            "y": 335
+          }
+        ]
+      },
+      {
+        "name": "Japes Baboon Blast",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Timed Barrel Shots",
+            "access_rules": [
+              "dk,baboonblast"
+            ],
+            "chest_unopened_img": "images/GB.gif",
+            "chest_opened_img": "images/GB_grey.gif",
+            "capture_item": true,
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "japes",
+            "x": 406,
+            "y": 613
+          }
+        ]
+      },
+      {
+        "name": "Dirt Tower",
+        "access_rules": [
+          "diddykong,peanutpopguns"
+        ],
+        "sections": [
+          {
+            "name": "Hit the switch inside",
+            "access_rules": [
+              "simianslam"
+            ],
+            "chest_unopened_img": "images/GB.gif",
+            "chest_opened_img": "images/GB_grey.gif",
+            "capture_item": true,
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "japes",
+            "x": 540,
+            "y": 380
+          }
+        ]
+      },
+      {
+        "name": "Inside Dirt Tower",
+        "access_rules": [
+          "diddykong,peanutpopguns"
+        ],
+        "sections": [
+          {
+            "name": "Minecart ride",
+            "access_rules": [
+              "simianslam,chimpcharge"
+            ],
+            "chest_unopened_img": "images/GB.gif",
+            "chest_opened_img": "images/GB_grey.gif",
+            "capture_item": true,
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "japes",
+            "x": 380,
+            "y": 240
+          }
+        ]
+      },
+      {
+        "name": "Picture Cave",
+        "access_rules": [
+          "lankykong,diddykong,orangstand,peanutpopguns"
+        ],
+        "sections": [
+          {
+            "name": "Stomp pegs, kill bees",
+            "access_rules": [],
+            "chest_unopened_img": "images/GB.gif",
+            "chest_opened_img": "images/GB_grey.gif",
+            "capture_item": true,
+            "item_count": 1
+          },
+          {
+            "name": "Banana Fairy",
+            "access_rules": [
+              "camera"
+            ],
+            "chest_unopened_img": "images/bananafairy.png",
+            "chest_opened_img": "images/bananafairy_grey.png",
+            "capture_item": true,
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "japes",
+            "x": 798,
+            "y": 642
+          }
+        ]
+      },
+      {
+        "name": "Beyond the Gates",
+        "access_rules": [
+          "japeskong"
+        ],
+        "children": [
+          {
+            "name": "Rambi Switches",
+            "access_rules": [
+              "coconutshooter"
+            ],
+            "children": [
+              {
+                "name": "DK Rambi Switch",
+                "sections": [
+                  {
+                    "name": "Grab the banana",
+                    "access_rules": [
+                      "dk,simianslam"
+                    ],
+                    "chest_unopened_img": "images/GB.gif",
+                    "chest_opened_img": "images/GB_grey.gif",
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "japes",
+                    "x": 535,
+                    "y": 514
+                  }
+                ]
+              },
+              {
+                "name": "Diddy Rambi Switch",
+                "sections": [
+                  {
+                    "name": "Race to the banana",
+                    "access_rules": [
+                      "diddykong,simianslam"
+                    ],
+                    "chest_unopened_img": "images/GB.gif",
+                    "chest_opened_img": "images/GB_grey.gif",
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "japes",
+                    "x": 398,
+                    "y": 425
+                  }
+                ]
+              },
+              {
+                "name": "Lanky Rambi Switch",
+                "sections": [
+                  {
+                    "name": "Race to the banana",
+                    "access_rules": [
+                      "lankykong,simianslam"
+                    ],
+                    "chest_unopened_img": "images/GB.gif",
+                    "chest_opened_img": "images/GB_grey.gif",
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "japes",
+                    "x": 637,
+                    "y": 410
+                  }
+                ]
+              },
+              {
+                "name": "Tiny Rambi Switch",
+                "sections": [
+                  {
+                    "name": "Race to the banana",
+                    "access_rules": [
+                      "tinykong,simianslam"
+                    ],
+                    "chest_unopened_img": "images/GB.gif",
+                    "chest_opened_img": "images/GB_grey.gif",
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "japes",
+                    "x": 585,
+                    "y": 480
+                  }
+                ]
+              },
+              {
+                "name": "Chunky Rambi Switch",
+                "sections": [
+                  {
+                    "name": "Race to the banana",
+                    "access_rules": [
+                      "chunkykong,simianslam"
+                    ],
+                    "chest_unopened_img": "images/GB.gif",
+                    "chest_opened_img": "images/GB_grey.gif",
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "japes",
+                    "x": 410,
+                    "y": 380
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "sections": [
+              {
+                "name": "DK's Kasplat",
+                "access_rules": [],
+                "hosted_item": "blueprint",
+                "capture_item": true
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "japes",
+                "x": 267,
+                "y": 492
+              }
+            ]
+          },
+          {
+            "sections": [
+              {
+                "name": "Tiny's Kasplat",
+                "access_rules": [],
+                "hosted_item": "blueprint",
+                "capture_item": true
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "japes",
+                "x": 264,
+                "y": 545
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

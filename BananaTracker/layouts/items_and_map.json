@@ -1,0 +1,67 @@
+{
+    "items_and_map": {
+        "type": "container",
+        "background": "#212121",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "left",
+                    "v_alignment": "stretch",
+                    "margin": "0,0,3,0",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Items",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "shared_item_grid"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "dock",
+                    "content": [
+                        {
+                            "type": "tabbed",
+                            "dock": "top",
+                            "tabs": [
+                                {
+                                    "title": "Japes",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": [
+                                            "japes"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "title": "Aztec",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": [
+                                            "aztec"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "title": "Factory",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": [
+                                            "factory"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
