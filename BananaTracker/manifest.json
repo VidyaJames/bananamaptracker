@@ -5,7 +5,7 @@
   "package_version": "1.0.1.0",
   "package_uid": "bananamaptracker_dk64",
   "layout_engine_version": "1.0",
-  "author": "2dos",
+  "author": "2dos, vidyajames",
   "variants": {
     "standard": {
       "display_name": "Standard Randomizer"

@@ -27,8 +27,8 @@
             "map_locations": [
               {
                 "map": "japes",
-                "x": 543,
-                "y": 734
+                "x": 100,
+                "y": 300
               }
             ]
           },
@@ -49,8 +49,8 @@
             "map_locations": [
               {
                 "map": "japes",
-                "x": 514,
-                "y": 734
+                "x": 100,
+                "y": 244
               }
             ]
           },
@@ -71,8 +71,8 @@
             "map_locations": [
               {
                 "map": "japes",
-                "x": 555,
-                "y": 763
+                "x": 40,
+                "y": 302
               }
             ]
           }
@@ -95,8 +95,8 @@
         "map_locations": [
           {
             "map": "japes",
-            "x": 434,
-            "y": 454
+            "x": 444,
+            "y": 414
           }
         ]
       },
@@ -117,8 +117,8 @@
         "map_locations": [
           {
             "map": "japes",
-            "x": 448,
-            "y": 425
+            "x": 478,
+            "y": 411
           }
         ]
       },
@@ -127,7 +127,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Golden Banana, Activate switches",
+            "name": "Golden Banana, spawn switches",
             "access_rules": [
               "$has_kong"
             ],
@@ -141,8 +141,8 @@
         "map_locations": [
           {
             "map": "japes",
-            "x": 680,
-            "y": 365
+            "x": 511,
+            "y": 611
           }
         ]
       },
@@ -165,8 +165,8 @@
         "map_locations": [
           {
             "map": "japes",
-            "x": 680,
-            "y": 335
+            "x": 550,
+            "y": 605
           }
         ]
       },
@@ -188,8 +188,8 @@
         "map_locations": [
           {
             "map": "japes",
-            "x": 406,
-            "y": 613
+            "x": 236,
+            "y": 308
           }
         ]
       },
@@ -208,23 +208,7 @@
             "chest_opened_img": "images/GB_grey.gif",
             "capture_item": true,
             "item_count": 1
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "japes",
-            "x": 540,
-            "y": 380
-          }
-        ]
-      },
-      {
-        "name": "Inside Dirt Tower",
-        "access_rules": [
-          "diddykong,peanutpopguns"
-        ],
-        "sections": [
-          {
+          },{
             "name": "Minecart ride",
             "access_rules": [
               "simianslam,chimpcharge"
@@ -238,8 +222,8 @@
         "map_locations": [
           {
             "map": "japes",
-            "x": 380,
-            "y": 240
+            "x": 514,
+            "y": 489
           }
         ]
       },
@@ -271,8 +255,8 @@
         "map_locations": [
           {
             "map": "japes",
-            "x": 798,
-            "y": 642
+            "x": 394,
+            "y": 757
           }
         ]
       },
@@ -294,8 +278,8 @@
         "map_locations": [
           {
             "map": "japes",
-            "x": 408,
-            "y": 575
+            "x": 255,
+            "y": 322
           }
         ]
       },
@@ -320,8 +304,8 @@
             "map_locations": [
               {
                 "map": "japes",
-                "x": 288,
-                "y": 718
+                "x": 274,
+                "y": 151
               }
             ]
           },
@@ -340,8 +324,8 @@
             "map_locations": [
               {
                 "map": "japes",
-                "x": 197,
-                "y": 724
+                "x": 339,
+                "y": 34
               }
             ]
           }
@@ -376,8 +360,8 @@
                 "map_locations": [
                   {
                     "map": "japes",
-                    "x": 535,
-                    "y": 514
+                    "x": 283,
+                    "y": 515
                   }
                 ]
               },
@@ -398,8 +382,8 @@
                 "map_locations": [
                   {
                     "map": "japes",
-                    "x": 398,
-                    "y": 425
+                    "x": 449,
+                    "y": 357
                   }
                 ]
               },
@@ -420,8 +404,8 @@
                 "map_locations": [
                   {
                     "map": "japes",
-                    "x": 637,
-                    "y": 410
+                    "x": 486,
+                    "y": 577
                   }
                 ]
               },
@@ -442,8 +426,8 @@
                 "map_locations": [
                   {
                     "map": "japes",
-                    "x": 585,
-                    "y": 480
+                    "x": 402,
+                    "y": 542
                   }
                 ]
               },
@@ -464,8 +448,8 @@
                 "map_locations": [
                   {
                     "map": "japes",
-                    "x": 410,
-                    "y": 380
+                    "x": 491,
+                    "y": 338
                   }
                 ]
               },
@@ -486,8 +470,8 @@
                 "map_locations": [
                   {
                     "map": "japes",
-                    "x": 890,
-                    "y": 210
+                    "x": 614,
+                    "y": 725
                   }
                 ]
               }
@@ -501,21 +485,9 @@
                 "access_rules": [],
                 "hosted_item": "blueblueprint",
                 "capture_item": true
-              }
-            ],
-            "map_locations": [
+              },
               {
-                "map": "japes",
-                "x": 768,
-                "y": 181
-              }
-            ]
-          },
-          {
-            "name": "Lanky Bonus Barrel",
-            "sections": [
-              {
-                "name": "Get up the slope",
+                "name": "Bonus barrel up the slope",
                 "access_rules": [
                   "lankykong,orangstand"
                 ],
@@ -528,8 +500,8 @@
             "map_locations": [
               {
                 "map": "japes",
-                "x": 773,
-                "y": 210
+                "x": 635,
+                "y": 473
               }
             ]
           },
@@ -540,8 +512,8 @@
                 "name": "Buy his stuff",
                 "access_rules": [
                 ],
-                "chest_unopened_img": "images/GB.png",
-                "chest_opened_img": "images/GB_grey.png",
+                "chest_unopened_img": "images/GB.gif",
+                "chest_opened_img": "images/GB_grey.gif",
                 "capture_item": true,
                 "item_count": 1
               }
@@ -549,8 +521,8 @@
             "map_locations": [
               {
                 "map": "japes",
-                "x": 807,
-                "y": 105
+                "x": 816,
+                "y": 468
               }
             ]
           },
@@ -567,8 +539,8 @@
             "map_locations": [
               {
                 "map": "japes",
-                "x": 267,
-                "y": 492
+                "x": 447,
+                "y": 244
               }
             ]
           },
@@ -585,8 +557,8 @@
             "map_locations": [
               {
                 "map": "japes",
-                "x": 875,
-                "y": 250
+                "x": 570,
+                "y": 647
               }
             ]
           },
@@ -603,8 +575,8 @@
             "map_locations": [
               {
                 "map": "japes",
-                "x": 264,
-                "y": 545
+                "x": 505,
+                "y": 145
               }
             ]
           },
@@ -631,8 +603,8 @@
                 "map_locations": [
                   {
                     "map": "japes",
-                    "x": 140,
-                    "y": 551
+                    "x": 750,
+                    "y": 402
                   }
                 ]
               },
@@ -653,8 +625,8 @@
                 "map_locations": [
                   {
                     "map": "japes",
-                    "x": 168,
-                    "y": 435
+                    "x": 607,
+                    "y": 438
                   }
                 ]
               },
@@ -675,8 +647,8 @@
                 "map_locations": [
                   {
                     "map": "japes",
-                    "x": 178,
-                    "y": 533
+                    "x": 670,
+                    "y": 342
                   }
                 ]
               }
