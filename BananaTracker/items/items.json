@@ -534,10 +534,38 @@
     "capturable": true
   },
   {
-    "name": "Generic Blueprint",
+    "name": "Yellow Blueprint",
+    "type": "toggle",
+    "img": "images/dk_bp.png",
+    "codes": "yellowblueprint",
+    "capturable": true
+  },
+  {
+    "name": "Red Blueprint",
     "type": "toggle",
     "img": "images/diddy_bp.png",
-    "codes": "blueprint",
+    "codes": "redblueprint",
+    "capturable": true
+  },
+  {
+    "name": "Blue Blueprint",
+    "type": "toggle",
+    "img": "images/lanky_bp.png",
+    "codes": "blueblueprint",
+    "capturable": true
+  },
+  {
+    "name": "Purple Blueprint",
+    "type": "toggle",
+    "img": "images/tiny_bp.png",
+    "codes": "purpleblueprint",
+    "capturable": true
+  },
+  {
+    "name": "Green Blueprint",
+    "type": "toggle",
+    "img": "images/chunky_bp.png",
+    "codes": "greenblueprint",
     "capturable": true
   }
 ]

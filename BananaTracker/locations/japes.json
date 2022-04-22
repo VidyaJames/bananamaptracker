@@ -11,10 +11,81 @@
         "access_rules": [
           "diddykong,peanutpopguns"
         ],
+        "children": [
+          {
+            "name": "First Cave Alcove",
+            "sections": [
+              {
+                "name": "Hit the switches",
+                "access_rules": [],
+                "chest_unopened_img": "images/GB.gif",
+                "chest_opened_img": "images/GB_grey.gif",
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "japes",
+                "x": 543,
+                "y": 734
+              }
+            ]
+          },
+          {
+            "name": "Lanky Bonus Barrel",
+            "sections": [
+              {
+                "name": "Shoot the switch",
+                "access_rules": [
+                  "lankykong,grapeshooter"
+                ],
+                "chest_unopened_img": "images/GB.gif",
+                "chest_opened_img": "images/GB_grey.gif",
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "japes",
+                "x": 514,
+                "y": 734
+              }
+            ]
+          },
+          {
+            "name": "Tiny Bonus Barrel",
+            "sections": [
+              {
+                "name": "Shoot the switch",
+                "access_rules": [
+                  "tinykong,featherbow"
+                ],
+                "chest_unopened_img": "images/GB.gif",
+                "chest_opened_img": "images/GB_grey.gif",
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "japes",
+                "x": 555,
+                "y": 763
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Crown Pad",
         "sections": [
           {
-            "name": "Hit the switches",
-            "access_rules": [],
+            "name": "Survive the fight",
+            "access_rules": [
+              "$has_kong"
+            ],
             "chest_unopened_img": "images/GB.gif",
             "chest_opened_img": "images/GB_grey.gif",
             "capture_item": true,
@@ -24,8 +95,30 @@
         "map_locations": [
           {
             "map": "japes",
-            "x": 543,
-            "y": 734
+            "x": 434,
+            "y": 454
+          }
+        ]
+      },
+      {
+        "name": "Funky's Armory",
+        "sections": [
+          {
+            "name": "Buy his stuff",
+            "access_rules": [
+              "$has_kong"
+            ],
+            "chest_unopened_img": "images/GB.gif",
+            "chest_opened_img": "images/GB_grey.gif",
+            "capture_item": true,
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "japes",
+            "x": 448,
+            "y": 425
           }
         ]
       },
@@ -184,15 +277,86 @@
         ]
       },
       {
+        "name": "Chunky Boulder",
+        "access_rules": [
+          "chunkykong"
+        ],
+        "sections": [
+          {
+            "name": "Throw the boulder",
+            "access_rules": [],
+            "chest_unopened_img": "images/GB.gif",
+            "chest_opened_img": "images/GB_grey.gif",
+            "capture_item": true,
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "japes",
+            "x": 408,
+            "y": 575
+          }
+        ]
+      },
+      {
+        "name": "Chunky Cave",
+        "access_rules": [
+          "chunkykong,simianslam,pineapplelauncher"
+        ],
+        "children": [
+          {
+            "name": "Chunky Cave",
+            "sections": [
+              {
+                "name": "Shoot the right switch",
+                "access_rules": [],
+                "chest_unopened_img": "images/GB.gif",
+                "chest_opened_img": "images/GB_grey.gif",
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "japes",
+                "x": 288,
+                "y": 718
+              }
+            ]
+          },
+          {
+            "name": "Chunky Cave",
+            "sections": [
+              {
+                "name": "Chunky's kasplat",
+                "access_rules": [],
+                "chest_unopened_img": "images/GB.gif",
+                "chest_opened_img": "images/GB_grey.gif",
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "japes",
+                "x": 197,
+                "y": 724
+              }
+            ]
+          }
+        ]
+      },
+      {
         "name": "Beyond the Gates",
         "access_rules": [
           "japeskong"
         ],
         "children": [
           {
-            "name": "Rambi Switches",
+            "name": "Rambi Section",
             "access_rules": [
-              "coconutshooter"
+              "dk,coconutshooter"
             ],
             "children": [
               {
@@ -304,15 +468,99 @@
                     "y": 380
                   }
                 ]
+              },
+              {
+                "name": "Past Rambi Wall",
+                "sections": [
+                  {
+                    "name": "Banana Fairy",
+                    "access_rules": [
+                      "camera"
+                    ],
+                    "chest_unopened_img": "images/bananafairy.png",
+                    "chest_opened_img": "images/bananafairy_grey.png",
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "japes",
+                    "x": 890,
+                    "y": 210
+                  }
+                ]
               }
             ]
           },
           {
+            "name": "Main Cave",
+            "sections": [
+              {
+                "name": "Lanky's Kasplat",
+                "access_rules": [],
+                "hosted_item": "blueblueprint",
+                "capture_item": true
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "japes",
+                "x": 768,
+                "y": 181
+              }
+            ]
+          },
+          {
+            "name": "Lanky Bonus Barrel",
+            "sections": [
+              {
+                "name": "Get up the slope",
+                "access_rules": [
+                  "lankykong,orangstand"
+                ],
+                "chest_unopened_img": "images/GB.gif",
+                "chest_opened_img": "images/GB_grey.gif",
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "japes",
+                "x": 773,
+                "y": 210
+              }
+            ]
+          },
+          {
+            "name": "Cranky's Lab",
+            "sections": [
+              {
+                "name": "Buy his stuff",
+                "access_rules": [
+                ],
+                "chest_unopened_img": "images/GB.png",
+                "chest_opened_img": "images/GB_grey.png",
+                "capture_item": true,
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "japes",
+                "x": 807,
+                "y": 105
+              }
+            ]
+          },
+          {
+            "name": "West Cave",
             "sections": [
               {
                 "name": "DK's Kasplat",
                 "access_rules": [],
-                "hosted_item": "blueprint",
+                "hosted_item": "yellowblueprint",
                 "capture_item": true
               }
             ],
@@ -325,11 +573,30 @@
             ]
           },
           {
+            "name": "Main Cave",
+            "sections": [
+              {
+                "name": "Diddy's Kasplat",
+                "access_rules": [],
+                "hosted_item": "redblueprint",
+                "capture_item": true
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "japes",
+                "x": 875,
+                "y": 250
+              }
+            ]
+          },
+          {
+            "name": "West Cave",
             "sections": [
               {
                 "name": "Tiny's Kasplat",
                 "access_rules": [],
-                "hosted_item": "blueprint",
+                "hosted_item": "purpleblueprint",
                 "capture_item": true
               }
             ],
@@ -338,6 +605,80 @@
                 "map": "japes",
                 "x": 264,
                 "y": 545
+              }
+            ]
+          },
+          {
+            "name": "Beyond West Cave",
+            "access_rules": [
+              "tinykong,featherbow"
+            ],
+            "children": [
+              {
+                "name": "Tiny Mushroom",
+                "sections": [
+                  {
+                    "name": "Banana inside the mushroom",
+                    "access_rules": [
+                      "minimonkey"
+                    ],
+                    "chest_unopened_img": "images/GB.gif",
+                    "chest_opened_img": "images/GB_grey.gif",
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "japes",
+                    "x": 140,
+                    "y": 551
+                  }
+                ]
+              },
+              {
+                "name": "Tiny Hive",
+                "sections": [
+                  {
+                    "name": "Infiltrate the hive",
+                    "access_rules": [
+                      "minimonkey"
+                    ],
+                    "chest_unopened_img": "images/GB.gif",
+                    "chest_opened_img": "images/GB_grey.gif",
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "japes",
+                    "x": 168,
+                    "y": 435
+                  }
+                ]
+              },
+              {
+                "name": "Chunky Bonus Barrel",
+                "sections": [
+                  {
+                    "name": "Become large, climb trees",
+                    "access_rules": [
+                      "chunkykong,hunkychunky"
+                    ],
+                    "chest_unopened_img": "images/GB.gif",
+                    "chest_opened_img": "images/GB_grey.gif",
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "japes",
+                    "x": 178,
+                    "y": 533
+                  }
+                ]
               }
             ]
           }
